@@ -1,3 +1,27 @@
+"
+Bindings generated as: 
+
+```
+CigCLibraryGenerator new
+	prefix: 'SSL';
+	bindingsName: 'ssl';
+	import: 'openssl/types.h';
+	import: 'openssl/bio.h';
+	import: 'openssl/ssl.h';
+	import: 'openssl/rsa.h';
+	import: 'openssl/evp.h';
+	import: 'openssl/crypto.h';
+	import: 'openssl/decoder.h';
+	import: 'openssl/core_names.h';
+	import: 'openssl/pem.h';
+	import: 'openssl/err.h';
+	cTypedef: 'pthread_once_t' as: #void;
+	cTypedef: 'pthread_key_t' as: #void;
+	cTypedef: 'pthread_t' as: #void;
+	cTypedef: 'crypto_ex_data_st_stack_st_void' as: #void; 
+	generate.	
+```
+"
 Class {
 	#name : 'LibSsl',
 	#superclass : 'FFILibrary',

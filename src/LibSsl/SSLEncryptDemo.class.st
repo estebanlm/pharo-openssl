@@ -1,3 +1,9 @@
+"
+There are some examples to copy here: 
+
+https://hayageek.com/rsa-encryption-decryption-openssl-c/
+
+"
 Class {
 	#name : 'SSLEncryptDemo',
 	#superclass : 'Object',
